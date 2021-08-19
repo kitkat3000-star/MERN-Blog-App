@@ -1,0 +1,76 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://wallpaperaccess.com/full/1773977.jpg");
+    background-size: cover;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .loginButton:hover{
+      background-color: transparent;
+      color: black;
+      border: 1px solid;
+  }
+
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: grey;
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .loginRegisterButton:hover{
+      background-color: black;
+  }
